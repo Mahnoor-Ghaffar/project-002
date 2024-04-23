@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+.hero-img{
+    width: 100%;
+    height: 650px;
+    background-image: url(https://html.dynamiclayers.net/dl/charitify/img/slider-3.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+}
+.hero-text{
+    width: 43%;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: jost;
+    background-color: #F8B864;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.hero-heading{
+    font-size: 45px;
+    margin-top: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.hero-p-1{
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.hero-para-2{
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.hero-section-btns{
+     width: 100%;
+     display: flex;
+     margin-top: 20px;
+     flex-wrap: wrap;
+     /* justify-content: center;
+     align-items: center; */
+}
+.hero-btns{
+    border: 1px solid black;
+    height: 50px;
+    width: 160px;
+    margin: 7px;
+    align-self: center;
+    margin-left: 30px;
+}
+.hero-btns:hover{
+    background-color: rgba(255, 255, 255, 0.315);
+}
